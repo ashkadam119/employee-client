@@ -1,0 +1,32 @@
+2023-04-30 15:03:49,882 INFO com.capstone.client.project.EmployeeCapstoneManagementApplication [main] Starting EmployeeCapstoneManagementApplication using Java 17.0.6 on HP with PID 13856 (C:\capstone\employee-capstone-management\bin\main started by Rural Water in C:\capstone\employee-capstone-management)
+2023-04-30 15:03:49,889 INFO com.capstone.client.project.EmployeeCapstoneManagementApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-04-30 15:03:50,675 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-30 15:03:50,761 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
+2023-04-30 15:03:51,520 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8286 (https)
+2023-04-30 15:03:51,550 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-04-30 15:03:51,550 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-30 15:03:52,090 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-30 15:03:52,091 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2153 ms
+2023-04-30 15:03:52,493 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-30 15:03:52,623 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-30 15:03:52,970 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-30 15:03:53,123 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-04-30 15:03:53,640 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-04-30 15:03:53,682 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-30 15:03:54,749 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-30 15:03:54,762 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-30 15:03:55,109 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-30 15:03:55,678 INFO org.apache.tomcat.util.net.NioEndpoint.certificate [main] Connector [https-jsse-nio-8286], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/capstone/employee-capstone-management/bin/main/keytool.p12] using alias [springboot] and with trust store [null]
+2023-04-30 15:03:55,701 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8286 (https) with context path ''
+2023-04-30 15:03:55,710 INFO com.capstone.client.project.EmployeeCapstoneManagementApplication [main] Started EmployeeCapstoneManagementApplication in 6.094 seconds (JVM running for 7.007)
+2023-04-30 15:04:40,168 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [https-jsse-nio-8286-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-30 15:04:40,168 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8286-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-04-30 15:04:40,170 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8286-exec-1] Completed initialization in 2 ms
+2023-04-30 15:04:40,223 INFO com.capstone.client.project.controller.EmployeeController [https-jsse-nio-8286-exec-1] EmployeeId(1001) is called
+2023-04-30 15:09:23,007 INFO com.capstone.client.project.controller.EmployeeController [https-jsse-nio-8286-exec-9] EmployeeId(1002) is called
+2023-04-30 15:09:50,308 INFO com.capstone.client.project.controller.EmployeeController [https-jsse-nio-8286-exec-10] EmployeeId(1001) is called
+2023-04-30 15:15:43,473 INFO com.capstone.client.project.controller.EmployeeController [https-jsse-nio-8286-exec-8] EmployeeId(1001) is called
+2023-04-30 15:43:41,425 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(43)-127.0.0.1] Application shutdown requested.
+2023-04-30 15:43:41,557 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(43)-127.0.0.1] Stopping service [Tomcat]
+2023-04-30 15:43:41,567 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(43)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-30 15:43:41,622 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(43)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'

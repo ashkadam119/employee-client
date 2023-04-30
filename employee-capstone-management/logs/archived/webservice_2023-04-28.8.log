@@ -1,0 +1,153 @@
+2023-04-28 01:40:10,623 INFO com.capstone.client.project.EmployeeCapstoneManagementApplication [main] Starting EmployeeCapstoneManagementApplication using Java 17.0.6 on HP with PID 7468 (C:\capstone\employee-capstone-management\bin\main started by Rural Water in C:\capstone\employee-capstone-management)
+2023-04-28 01:40:10,627 INFO com.capstone.client.project.EmployeeCapstoneManagementApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-04-28 01:40:11,338 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28 01:40:11,473 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 124 ms. Found 1 JPA repository interfaces.
+2023-04-28 01:40:11,976 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8285 (http)
+2023-04-28 01:40:11,993 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-04-28 01:40:11,997 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-28 01:40:12,342 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-28 01:40:12,343 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1653 ms
+2023-04-28 01:40:12,537 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-28 01:40:12,587 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-28 01:40:12,757 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-28 01:40:12,851 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-04-28 01:40:13,158 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-04-28 01:40:13,183 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-28 01:40:13,898 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-28 01:40:13,906 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28 01:40:14,211 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-28 01:40:14,527 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8285 (http) with context path ''
+2023-04-28 01:40:14,536 INFO com.capstone.client.project.EmployeeCapstoneManagementApplication [main] Started EmployeeCapstoneManagementApplication in 4.292 seconds (JVM running for 5.458)
+2023-04-28 01:40:37,620 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8285-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28 01:40:37,620 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8285-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-04-28 01:40:37,621 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8285-exec-1] Completed initialization in 1 ms
+2023-04-28 01:55:33,566 INFO com.capstone.client.project.EmployeeCapstoneManagementApplication [main] Starting EmployeeCapstoneManagementApplication using Java 17.0.6 on HP with PID 31536 (C:\capstone\employee-capstone-management\bin\main started by Rural Water in C:\capstone\employee-capstone-management)
+2023-04-28 01:55:33,568 INFO com.capstone.client.project.EmployeeCapstoneManagementApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-04-28 01:55:33,993 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28 01:55:34,084 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 86 ms. Found 1 JPA repository interfaces.
+2023-04-28 01:55:34,442 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:javacapstone.p12'
+2023-04-28 01:55:34,448 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-28 01:55:34,461 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:javacapstone.p12'
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.capstone.client.project.EmployeeCapstoneManagementApplication.main(EmployeeCapstoneManagementApplication.java:10)
+Caused by: org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:javacapstone.p12'
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSslKeyStore(SslConnectorCustomizer.java:154)
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSsl(SslConnectorCustomizer.java:103)
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.customize(SslConnectorCustomizer.java:61)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeSsl(TomcatServletWebServerFactory.java:366)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeConnector(TomcatServletWebServerFactory.java:343)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:203)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	... 8 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [javacapstone.p12] cannot be resolved to URL because it does not exist
+	at org.springframework.util.ResourceUtils.getURL(ResourceUtils.java:137)
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSslKeyStore(SslConnectorCustomizer.java:151)
+	... 15 common frames omitted
+2023-04-28 02:01:34,467 INFO com.capstone.client.project.EmployeeCapstoneManagementApplication [main] Starting EmployeeCapstoneManagementApplication using Java 17.0.6 on HP with PID 7120 (C:\capstone\employee-capstone-management\bin\main started by Rural Water in C:\capstone\employee-capstone-management)
+2023-04-28 02:01:34,470 INFO com.capstone.client.project.EmployeeCapstoneManagementApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-04-28 02:01:34,883 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28 02:01:34,971 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interfaces.
+2023-04-28 02:01:35,300 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:javacapstone.p12'
+2023-04-28 02:01:35,307 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-28 02:01:35,320 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:javacapstone.p12'
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.capstone.client.project.EmployeeCapstoneManagementApplication.main(EmployeeCapstoneManagementApplication.java:10)
+Caused by: org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:javacapstone.p12'
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSslKeyStore(SslConnectorCustomizer.java:154)
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSsl(SslConnectorCustomizer.java:103)
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.customize(SslConnectorCustomizer.java:61)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeSsl(TomcatServletWebServerFactory.java:366)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeConnector(TomcatServletWebServerFactory.java:343)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:203)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	... 8 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [javacapstone.p12] cannot be resolved to URL because it does not exist
+	at org.springframework.util.ResourceUtils.getURL(ResourceUtils.java:137)
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSslKeyStore(SslConnectorCustomizer.java:151)
+	... 15 common frames omitted
+2023-04-28 02:02:20,046 INFO com.capstone.client.project.EmployeeCapstoneManagementApplication [main] Starting EmployeeCapstoneManagementApplication using Java 17.0.6 on HP with PID 26372 (C:\capstone\employee-capstone-management\bin\main started by Rural Water in C:\capstone\employee-capstone-management)
+2023-04-28 02:02:20,050 INFO com.capstone.client.project.EmployeeCapstoneManagementApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-04-28 02:02:20,961 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28 02:02:21,014 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2023-04-28 02:02:21,433 WARN org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:javacapstone.p12'
+2023-04-28 02:02:21,440 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-28 02:02:21,464 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:javacapstone.p12'
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.capstone.client.project.EmployeeCapstoneManagementApplication.main(EmployeeCapstoneManagementApplication.java:10)
+Caused by: org.springframework.boot.web.server.WebServerException: Could not load key store 'classpath:javacapstone.p12'
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSslKeyStore(SslConnectorCustomizer.java:154)
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSsl(SslConnectorCustomizer.java:103)
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.customize(SslConnectorCustomizer.java:61)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeSsl(TomcatServletWebServerFactory.java:366)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.customizeConnector(TomcatServletWebServerFactory.java:343)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:203)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	... 8 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [javacapstone.p12] cannot be resolved to URL because it does not exist
+	at org.springframework.util.ResourceUtils.getURL(ResourceUtils.java:137)
+	at org.springframework.boot.web.embedded.tomcat.SslConnectorCustomizer.configureSslKeyStore(SslConnectorCustomizer.java:151)
+	... 15 common frames omitted
+2023-04-28 02:02:58,034 INFO com.capstone.client.project.EmployeeCapstoneManagementApplication [main] Starting EmployeeCapstoneManagementApplication using Java 17.0.6 on HP with PID 11960 (C:\capstone\employee-capstone-management\bin\main started by Rural Water in C:\capstone\employee-capstone-management)
+2023-04-28 02:02:58,036 INFO com.capstone.client.project.EmployeeCapstoneManagementApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-04-28 02:02:58,437 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-28 02:02:58,480 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+2023-04-28 02:02:58,808 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8286 (https)
+2023-04-28 02:02:58,819 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-04-28 02:02:58,820 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-28 02:02:59,061 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-04-28 02:02:59,067 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 989 ms
+2023-04-28 02:02:59,205 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-28 02:02:59,245 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-28 02:02:59,372 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-28 02:02:59,445 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-04-28 02:02:59,673 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-04-28 02:02:59,697 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-28 02:03:00,270 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-28 02:03:00,278 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28 02:03:00,486 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-28 02:03:00,955 INFO org.apache.tomcat.util.net.NioEndpoint.certificate [main] Connector [https-jsse-nio-8286], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/capstone/employee-capstone-management/bin/main/keytool.p12] using alias [springboot] and with trust store [null]
+2023-04-28 02:03:00,976 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8286 (https) with context path ''
+2023-04-28 02:03:00,984 INFO com.capstone.client.project.EmployeeCapstoneManagementApplication [main] Started EmployeeCapstoneManagementApplication in 3.287 seconds (JVM running for 4.096)
+2023-04-28 02:03:32,674 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [https-jsse-nio-8286-exec-5] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28 02:03:32,675 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8286-exec-5] Initializing Servlet 'dispatcherServlet'
+2023-04-28 02:03:32,677 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8286-exec-5] Completed initialization in 1 ms
+2023-04-28 02:03:32,705 INFO com.capstone.client.project.controller.EmployeeController [https-jsse-nio-8286-exec-5] EmployeeId(1002) is called
+2023-04-28 02:40:55,106 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(65)-127.0.0.1] Application shutdown requested.
+2023-04-28 02:40:55,396 INFO org.apache.catalina.core.StandardService [RMI TCP Connection(65)-127.0.0.1] Stopping service [Tomcat]
+2023-04-28 02:40:55,409 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(65)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-28 02:40:55,527 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(65)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-28 02:40:55,589 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(65)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2023-04-28 02:40:55,610 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(65)-127.0.0.1] HikariPool-1 - Shutdown completed.
